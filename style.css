@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&display=swap');
+
+body {
+	background-image: url(images/background.png); 
+	background-size: cover;
+}
+
+}
+p {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+	color: dodgerblue;
+	text-align: center;
+}
+#photo {
+	width : 150px;
+	height: 200px;
+	border-radius: 50%;
+}
+h1,h2,h3 {
+	font-family: Lora, sans-serif;
+}
+
+
+}
+h1 {
+	text-align: center;
+	color: lightblue;
+}
+h2 {
+	color : lightblue;
+	font-size: 40px;
+	text-align: center;
+
+
+}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.card-white {
+	background-color: cornflowerblue;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 1, 0.1);
+	margin: 20px, 0px;
+	text-align: center;
+	border: 1px solid lightgrey;
+	padding-bottom: 15px;
+}
+#faux {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	color: steelblue;
+	text-align: center;
+}
+a {
+  color: steelblue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+a:hover {
+	color:  black;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 100px;
+  }
+}
+.insta {
+	font-size: 40px;
+	background-color: cornflowerblue;
+	color: indianred;
+	padding: 15px, 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+.insta:hover {
+	color: white;
+}
+.rick-roll {
+	font-size: 40px;
+	background-color: cornflowerblue;
+	color: green;
+	padding: 15px, 10px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+
+}
+.rick-roll:hover {
+	color: white;
+}
+
+a {
+	color: white;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: white;
+}
+
